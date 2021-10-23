@@ -1,5 +1,5 @@
 import tkinter as tk
-import random as rand
+import random
 
 WINDOW_TITLE = "Python Gomoku"
 CONNECT = 5
@@ -49,7 +49,7 @@ def drawInit():
         canvas.create_line(BORDER_SIZE + i * BLOCK_SIZE, BORDER_SIZE, BORDER_SIZE + i * BLOCK_SIZE, HEIGHT - BORDER_SIZE - TEXT_SIZE)
     #computer first
     if computerTurn:
-        chess(rand.randint(0, MAP_WIDTH - 1), rand.randint(0, MAP_WIDTH - 1))
+        chess(random.randint(0, MAP_WIDTH - 1), random.randint(0, MAP_WIDTH - 1))
     pass
 
 #show text
