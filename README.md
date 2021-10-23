@@ -5,3 +5,4 @@ In the first round, the computer takes the first step, in the second round the p
 
 1. Use the tkinter module
 2. A.I. under Gomoku (without deep learning)
+<img width="276" alt="Gomoku_image" src="https://user-images.githubusercontent.com/83437191/138547667-84ff4596-84fa-4250-abb1-a0c2c4f20030.png">
